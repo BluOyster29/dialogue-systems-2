@@ -1,0 +1,7 @@
+{
+  "pipeline" : "spacy_sklearn",
+  "path"     : "./Lab1",
+  "data"     : "./data/rasa-tutorial-training-data.json",
+  "language" : "en",
+  "emulate"  : "luis"
+}

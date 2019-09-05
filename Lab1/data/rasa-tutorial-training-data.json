@@ -13,37 +13,44 @@
     "entity_synonyms": [
       {
         "value": "chinese",
-        "synonyms": ["Chinese", "Chines", "chines"]
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
       },
       {
         "value": "vegetarian",
-        "synonyms": ["veggie", "vegg"]
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
       }
     ],
     "common_examples": [
       {
         "text": "hey",
-        "intent": "greet", 
+        "intent": "greet",
         "entities": []
-      }, 
+      },
       {
         "text": "howdy",
-        "intent": "greet", 
+        "intent": "greet",
         "entities": []
-      }, 
+      },
       {
         "text": "hey there",
-        "intent": "greet", 
+        "intent": "greet",
         "entities": []
-      }, 
+      },
       {
-        "text": "hello", 
-        "intent": "greet", 
+        "text": "hello",
+        "intent": "greet",
         "entities": []
-      }, 
+      },
       {
-        "text": "hi", 
-        "intent": "greet", 
+        "text": "hi",
+        "intent": "greet",
         "entities": []
       },
       {
@@ -62,18 +69,18 @@
         "entities": []
       },
       {
-        "text": "yes", 
-        "intent": "affirm", 
+        "text": "yes",
+        "intent": "affirm",
         "entities": []
-      }, 
+      },
       {
-        "text": "yep", 
-        "intent": "affirm", 
+        "text": "yep",
+        "intent": "affirm",
         "entities": []
-      }, 
+      },
       {
-        "text": "yeah", 
-        "intent": "affirm", 
+        "text": "yeah",
+        "intent": "affirm",
         "entities": []
       },
       {
@@ -119,22 +126,22 @@
       {
         "text": "What's your name?",
         "intent": "chitchat/ask_name",
-        "entitites": []
+        "entities": []
       },
       {
         "text": "What can I call you?",
         "intent": "chitchat/ask_name",
-        "entitites": []
+        "entities": []
       },
       {
         "text": "How's the weather?",
         "intent": "chitchat/ask_weather",
-        "entitites": []
+        "entities": []
       },
       {
         "text": "Is it too hot outside?",
         "intent": "chitchat/ask_weather",
-        "entitites": []
+        "entities": []
       },
       {
         "text": "i'm looking for a place to eat",
@@ -176,15 +183,9 @@
         ]
       },
       {
-        "text": "show me chines restaurants in the north",
+        "text": "show me Chines restaurants in the north",
         "intent": "restaurant_search",
         "entities": [
-          {
-            "start": 8,
-            "end": 14,
-            "value": "chinese",
-            "entity": "cuisine"
-          },
           {
             "start": 34,
             "end": 39,
@@ -194,19 +195,19 @@
         ]
       },
       {
-        "text": "show me a mexican place in the centre", 
-        "intent": "restaurant_search", 
+        "text": "show me a mexican place in the centre",
+        "intent": "restaurant_search",
         "entities": [
           {
-            "start": 31, 
-            "end": 37, 
-            "value": "centre", 
+            "start": 31,
+            "end": 37,
+            "value": "centre",
             "entity": "location"
-          }, 
+          },
           {
-            "start": 10, 
-            "end": 17, 
-            "value": "mexican", 
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
             "entity": "cuisine"
           }
         ]
@@ -222,7 +223,8 @@
             "entity": "cuisine"
           }
         ]
-      },     {
+      },
+      {
         "text": "search for restaurants",
         "intent": "restaurant_search",
         "entities": []
@@ -306,28 +308,28 @@
         ]
       },
       {
-        "text": "bye", 
-        "intent": "goodbye", 
+        "text": "bye",
+        "intent": "goodbye",
         "entities": []
-      }, 
+      },
       {
-        "text": "goodbye", 
-        "intent": "goodbye", 
+        "text": "goodbye",
+        "intent": "goodbye",
         "entities": []
-      }, 
+      },
       {
-        "text": "good bye", 
-        "intent": "goodbye", 
+        "text": "good bye",
+        "intent": "goodbye",
         "entities": []
-      }, 
+      },
       {
-        "text": "stop", 
-        "intent": "goodbye", 
+        "text": "stop",
+        "intent": "goodbye",
         "entities": []
-      }, 
+      },
       {
-        "text": "end", 
-        "intent": "goodbye", 
+        "text": "end",
+        "intent": "goodbye",
         "entities": []
       },
       {
@@ -341,7 +343,7 @@
         "entities": []
       },
       {
-        "text": "have a good one",
+        "text": "howdy",
         "intent": "goodbye",
         "entities": []
       }
