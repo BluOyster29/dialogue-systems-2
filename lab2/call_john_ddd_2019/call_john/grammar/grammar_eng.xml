@@ -43,42 +43,17 @@
 
   <report action="MakeCall" status="ended">Calling <slot predicate="contact_name"/>'s<slot predicate="number_type"/>.</report>
 
-  <individual name="mobile">
-    <one-of>
-      <item>mobile</item>
-    </one-of>
-  </individual>
+  <individual name="mobile">mobile</individual>
 
-  <individual name="home">
-    <one-of>
-      <item>home</item>
-    </one-of>
-  </individual>
+  <individual name="home">home</individual>
 
-  <individual name="work">
-    <one-of>
-      <item>work</item>
-    </one-of>
-  </individual>
+  <individual name="work">work</individual>
 
+  <individual name="contact_john">john</individual>
 
-  <individual name="contact_john">
-    <one-of>
-      <item>john</item>
-    </one-of>
-  </individual>
+  <individual name="contact_andy">mary</individual>
 
-  <individual name="contact_andy">
-    <one-of>
-      <item>mary</item>
-    </one-of>
-  </individual>
-
-  <individual name="contact_mary">
-    <one-of>
-      <item>andy</item>
-    </one-of>
-  </individual>
+  <individual name="contact_mary">andy</individual>
 
 
 </grammar>
