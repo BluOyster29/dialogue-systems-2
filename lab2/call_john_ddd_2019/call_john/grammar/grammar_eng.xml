@@ -51,9 +51,9 @@
 
   <individual name="contact_john">john</individual>
 
-  <individual name="contact_andy">mary</individual>
+  <individual name="contact_andy">andy</individual>
 
-  <individual name="contact_mary">andy</individual>
+  <individual name="contact_mary">mary</individual>
 
 
 </grammar>
