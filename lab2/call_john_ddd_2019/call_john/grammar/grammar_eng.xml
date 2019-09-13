@@ -41,7 +41,7 @@
     which phone?
   </question>
 
-  <report action=MakeCall stats="ended">Calling <slot predicate="contact_name"/>'s<slot predicate="number_type"/>.</report>'
+  <report action=MakeCall stats="ended">Calling <slot predicate="contact_name"/>'s<slot predicate="number_type"/>.</report>
 
   <individual name="mobile">
     <item>mobile</item>
