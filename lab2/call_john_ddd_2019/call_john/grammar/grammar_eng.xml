@@ -24,11 +24,11 @@
     <one-of>
       <item>make a call</item>
       <item>call
-        <slot>predicate="contact_name" type="individual"</slot>
+        <slot predicate="contact_name" type="individual"/>
       </item>
       <item>call
-        <slot> predicate="contact_name" type="individual"</slot> 's
-        <slot> predicate="number_type" type ="individual"</slot>
+        <slot predicate="contact_name" type="individual"/> 's
+        <slot predicate="number_type" type ="individual"/>
       </item>
     </one-of>
   </action>
