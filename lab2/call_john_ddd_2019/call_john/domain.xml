@@ -11,15 +11,16 @@
     <plan>
       <findout type="wh_question" predicate="contact_name"/>
       <findout type="wh_question" predicate="number_type"/>
-      <invoke_service_action name="MakeCall" postconfirm="True"/>
+      <dev_action name="MakeCall" postconfirm="True"/>
     </plan>
   </goal>
 
-  <goal type="perform" action="contact_lookup">
+  <goal type="resolve" predicate="contact_lookup">
     <plan>
       <findout type="wh_question" predicate="contact_name"/>
       <findout type="wh_question" predicate="number_type"/>
-      <invoke_service_action name="ContactLookup" postconfirm="True"/>
     </plan>
   </goal>
+
+  <!-- this is a query, resolving a predicate, phone number
 </domain>
