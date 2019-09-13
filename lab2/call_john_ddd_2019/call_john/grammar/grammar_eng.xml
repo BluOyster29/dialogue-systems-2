@@ -20,4 +20,30 @@
     </one-of>
   </action>
 
+  <action name="make_call">
+    <one-of>
+      <item>make a call</item>
+      <item>call
+        <slot>predicate="contact_name" type="individual"</slot>
+      </item>
+      <item>call
+        <slot> predicate="contact_name" type="individual"</slot> 's
+        <slot> predicate="number_type" type ="individual"</slot>
+      </item>
+    </one-of>
+  </action>
+
+  <individual name="John">
+    <item>John</item>
+  </individual>
+
+  <individual name="Andy">
+    <item>John</item>
+  </individual>
+
+  <individual name="Mary">
+    <item>John</item>
+  </individual>
+
+
 </grammar>
