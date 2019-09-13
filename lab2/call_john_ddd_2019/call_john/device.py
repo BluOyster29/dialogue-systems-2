@@ -3,6 +3,10 @@ from tdm.lib.device import DddDevice, DeviceAction, DeviceWHQuery, Validity
 
 class CallJohnDevice(DddDevice):
 
+    class MakeCall(DeviceAction):
+        def perform(self, contact_name, number_type):
+            return True
+
     JOHN = "contact_john"
     LISA = "contact_lisa"
     MARY = "contact_mary"

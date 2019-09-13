@@ -23,25 +23,22 @@
   <action name="make_call">
     <one-of>
       <item>make a call</item>
-      <item>call
-        <slot predicate="contact_name" type="individual"/>
+      <item>call <slot predicate="select_contact" type="individual"/>
       </item>
-      <item>call
-        <slot predicate="contact_name" type="individual"/> 's
-        <slot predicate="number_type" type ="individual"/>
+      <item>call <slot predicate="select_contact" type="individual"/>'s <slot predicate="select_number" type="individual"/>
       </item>
     </one-of>
   </action>
 
-  <question speaker="system" predicate="contact_name" type="wh_question">
-    which contact?
+  <question speaker="system" predicate="select_contact" type="wh_question">
+    which contact
   </question>
 
-  <question speaker="system" predicate="number_type" type="wh_question">
-    which phone?
+  <question speaker="system" predicate="select_number" type="wh_question">
+    which phone
   </question>
 
-  <report action="MakeCall" status="ended">Calling <slot predicate="contact_name"/>'s<slot predicate="number_type"/>.</report>
+  <report action="MakeCall" status="ended">Calling <slot predicate="select_contact"/>'s<slot predicate="select_number"/></report>
 
   <individual name="mobile">mobile</individual>
 
@@ -49,11 +46,11 @@
 
   <individual name="work">work</individual>
 
-  <individual name="contact_john">john</individual>
+  <individual name="contact_john">John</individual>
 
-  <individual name="contact_andy">andy</individual>
+  <individual name="contact_andy">Andy</individual>
 
-  <individual name="contact_mary">mary</individual>
+  <individual name="contact_mary">Mary</individual>
 
 
 </grammar>

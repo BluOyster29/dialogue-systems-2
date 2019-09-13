@@ -1,0 +1,10 @@
+2019-09-13 16:35:01,055 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='mobile', name=u'mobile')
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity returns u'mobile'
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='home', name=u'home')
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity returns u'home'
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry='mary', name=u'contact_mary')
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_mary'
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='work', name=u'work')
+2019-09-13 16:35:01,056 - build - DEBUG - EntityDb(call_john): add_entity returns u'work'
+2019-09-13 16:35:01,057 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry='john', name=u'contact_john')
+2019-09-13 16:35:01,057 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
