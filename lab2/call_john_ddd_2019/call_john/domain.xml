@@ -6,4 +6,20 @@
       <findout type="goal"/>
     </plan>
   </goal>
+
+  <goal type="perform" action="make_call">
+    <plan>
+      <findout type="wh_question" predicate="contact_name"/>
+      <findout type="wh_question" predicate="number_type"/>
+      <invoke_service_action name="MakeCall" postconfirm="True"/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="contact_lookup">
+    <plan>
+      <findout type="wh_question" predicate="contact_name"/>
+      <findout type="wh_question" predicate="number_type"/>
+      <invoke_service_action name="ContactLookup" postconfirm="True"/>
+    </plan>
+  </goal>
 </domain>
