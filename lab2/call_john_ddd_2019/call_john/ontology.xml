@@ -8,11 +8,12 @@
   <predicate name="number_type" sort="string"/>
   <!--<predicate name="number" sort="integer"/>-->
 
+  <!--
   <sort name="contact_name"/>
   <sort name="number_type"/>
-  
+-->
+
   <individual name="contact_john" sort="contact_name"/>
-  <individual name="contact_andy" sort="contact_name"/>
   <individual name="contact_mary" sort="contact_name"/>
   <individual name="mobile" sort="number_type"/>
   <individual name="home" sort="number_type"/>
