@@ -12,8 +12,8 @@
   <individual name="contact_andy" sort="contact_name"/>
   <individual name="contact_mary" sort="contact_name"/>
   <individual name="mobile" sort="number_type"/>
-  <individual name="home" sort="number_type"//>
-  <individual name="work" sort="number_type"//>
+  <individual name="home" sort="number_type"/>
+  <individual name="work" sort="number_type"/>
   <!--<individual name="number" sort="number"/>-->
 
 </ontology>
