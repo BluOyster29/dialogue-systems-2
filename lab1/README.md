@@ -8,17 +8,17 @@ I completed the tutorial using mltgpu, the instructions were relatively straigtf
 ### Task 2: Evaluate NLY Exploaratively 
 
 a) Correctly classified espite not being in the training data
-- [Result-1](results/alright-mate.png)
-- [Result-2](results/hiya.png)
-- [Result-3](results/howdy.png)
+- [Result-1](results/alright-mate.png) "Alright mate"
+- [Result-2](results/hiya.png) "Hiya"
+- [Result-3](results/howdy.png) "Howdy"
 
 b) Intent incorrectly classified despite expressing respective intent
-- [Result-1](results/it-is-raining.png) (weather)
-- [Result-2](results/see-you-later.png) (goodbye)
-- [Result-3](results/greetings.png) (greet)
+- [Result-1](results/it-is-raining.png) "It is raining" 
+- [Result-2](results/see-you-later.png) "Goodbye"
+- [Result-3](results/greetings.png) "Greeting"
 
 c) Intent not in training data
-- [Result1_tech-support](results/tech-support.png)
+- [Result1_tech support](results/tech-support.png)
 - [Result2_shopping](results/shopping.png)
 - [Result3_travel](results/travel.png)
    
@@ -41,3 +41,5 @@ b) It is useful to test a model on the data that it is trained on perhaps for de
 ### Task 4: Improve NLU Performance 
 
 - For this task I am adding some more phrases to the training data, including new intents and recognised phrases. 
+
+
