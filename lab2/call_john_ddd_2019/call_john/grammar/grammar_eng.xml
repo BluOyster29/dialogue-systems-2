@@ -33,16 +33,39 @@
     </one-of>
   </action>
 
-  <individual name="John">
-    <item>John</item>
+  <question speaker="system" predicate="contact_name" type="wh_question">
+    which contact?
+  </question>
+
+  <question speaker="system" predicate="number_type" type="wh_question">
+    which phone?
+  </question>
+
+  <report action=MakeCall stats="ended">Calling <slot predicate="contact_name"/>'s<slot predicate="number_type"/>.</report>'
+
+  <individual name="mobile">
+    <item>mobile</item>
   </individual>
 
-  <individual name="Andy">
-    <item>John</item>
+  <individual name="home">
+    <item>home</item>
   </individual>
 
-  <individual name="Mary">
-    <item>John</item>
+  <individual name="work">
+    <item>work</item>
+  </individual>
+
+
+  <individual name="contact_john">
+    <item>john</item>
+  </individual>
+
+  <individual name="contact_andy">
+    <item>mary</item>
+  </individual>
+
+  <individual name="contact_mary">
+    <item>andy</item>
   </individual>
 
 
