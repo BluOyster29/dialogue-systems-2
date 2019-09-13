@@ -6,6 +6,7 @@ nlu_md = """
 - good morning
 - good evening
 - hey there
+- greetings
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -26,5 +27,30 @@ nlu_md = """
 - thank you
 - thx
 - thanks very much
+
+## intent:weather
+- it's raining 
+- will it be warm tomorrow?
+- will i need my coat?
+- it's bloody cold in this country 
+- when will it stop raining 
+- the wind is blowing again
+- will it rain next week?
+
+## intent:tech_support
+- my screen is blank 
+- my mouse isn't working 
+- i have already turned it off and on
+- is it supposed to be on fire?
+- can you help me connect to the server?
+
+## intent:goodbye
+- goodbye
+- see you later 
+- hej hej
+- adios
+- bye
+
+
 """
 %store nlu_md > nlu.md
