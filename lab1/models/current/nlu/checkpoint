@@ -1,2 +1,0 @@
-model_checkpoint_path: "/home/gusroberth@GU.GU.SE/repos/Semester_3/dialogue-systems-2/lab1/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/home/gusroberth@GU.GU.SE/repos/Semester_3/dialogue-systems-2/lab1/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
