@@ -54,5 +54,5 @@ The results suggest a generally accurate model with no particular biases.
 
 ### Task 5: Analyze a specific problem 
 
-I have created an intent for goodbyes and added 'good bye' and 'bye good' to the intent. When running the test both examples are not recognised as goodbyes and are incorrectly classified as greets. Even though I have in my training data 'goodbye', it still mislabaled this example. 
+I have created an intent for goodbyes and added 'good bye' and 'bye good' to the intent. When running the test both examples are not recognised as goodbyes and are incorrectly classified as greets. Even though I have in my training data 'goodbye', it still mislabaled this example. The problem may lie with the tokenizer as it is probably including the white space and not realising that the words belong together. 
 
