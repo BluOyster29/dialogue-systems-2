@@ -11,7 +11,9 @@
     <plan>
       <findout type="wh_question" predicate="select_contact"/>
       <findout type="wh_question" predicate="select_number"/>
-      <dev_perform action="MakeCall" postconfirm="True"/>
+      <postcond>
+        <dev_perform action="MakeCall" postconfirm="True"/>
+      </postcond>
     </plan>
   </goal>
 
