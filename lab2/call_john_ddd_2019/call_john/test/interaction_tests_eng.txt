@@ -9,3 +9,8 @@ U> john
 S> Which phone?
 U> mobile
 S> Calling John's mobile
+
+--- call (one-shot)
+S> What would you like to do?
+U> call john's mobile
+S> Calling John's mobile
