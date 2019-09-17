@@ -24,7 +24,7 @@
     <one-of>
       <item>make a call</item>
       <item>call <slot predicate="select_contact" type="individual"/></item>
-      <item>call <slot predicate="select_contact" type="individual"/> 's <slot predicate="select_number" type="individual"/></item>
+      <item>call <slot predicate="select_contact" type="individual"/>'s<slot predicate="select_number" type="individual"/></item>
     </one-of>
   </action>
 
