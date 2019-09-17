@@ -12,5 +12,5 @@ S> Calling John's mobile
 
 --- call (one-shot)
 S> What would you like to do?
-U> call john's mobile
+U> call John's mobile
 S> Calling John's mobile
