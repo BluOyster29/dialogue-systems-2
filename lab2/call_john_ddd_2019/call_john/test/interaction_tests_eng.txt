@@ -14,3 +14,10 @@ S> Calling John's mobile
 S> What would you like to do?
 U> call John's mobile
 S> Calling John's mobile
+
+--- call (over answering)
+S> What would you like to do?
+U> call John
+S> Which phone?
+U> mobile
+S> Calling John's mobile
