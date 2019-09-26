@@ -22,7 +22,7 @@ S> Which phone?
 U> mobile
 S> Calling John's mobile
 
--- call (own example)
+--- call (own example)
 S> what would you like to do?
 U> call Mary's work
 S> Calling Mary's work
