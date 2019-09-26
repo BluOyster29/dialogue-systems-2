@@ -21,7 +21,7 @@
 
   <goal type="resolve" predicate="contact_lookup">
     <plan>
-      <dev_query predicate = "contact_lookup"/>
+      <dev_query predicate="contact_lookup" type="wh_question"/>
     </plan>
   </goal>
 
