@@ -29,7 +29,7 @@
   </action>
 
   <question speaker="system" predicate="select_contact" type="wh_question">
-    which contact
+    Which contact
   </question>
 
   <question speaker="system" predicate="select_number" type="wh_question">
