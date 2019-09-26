@@ -1,3 +1,15 @@
+--- main menu
+S> What would you like to do?
+
+--- call (incremental)
+S> What would you like to do?
+U> make a call
+S> Which contact?
+U> john
+S> Which phone?
+U> mobile
+S> Calling John's mobile
+
 --- call (one-shot)
 S> What would you like to do?
 U> call john's mobile
