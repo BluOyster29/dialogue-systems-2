@@ -13,7 +13,15 @@
       <findout type="wh_question" predicate="select_number"/>
       <dev_perform action="MakeCall" postconfirm="True"/>
     </plan>
+
+    <postcond>
+      <device_activity_terminated action="MakeCall"/>
+    </postcond>
   </goal>
+
+
+
+
 
   <!--
   <goal type="resolve" predicate="contact_lookup">
