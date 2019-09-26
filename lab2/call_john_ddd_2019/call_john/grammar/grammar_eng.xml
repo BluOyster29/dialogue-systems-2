@@ -28,7 +28,7 @@
     </one-of>
   </action>
 
-  <question speaker="user" predicate="contact_lookup">
+  <question speaker="user" predicate="contact_lookup" type="wh_question">
     <one-of>
       <item>I want to know a contact's number</item>
     </one-of>
