@@ -40,7 +40,12 @@
 
   <individual name="work">work</individual>
 
-  <individual name="contact_john">John</individual>
+  <individual name="contact_john">
+    <one-of>
+      <item>John</item>
+      <item>John's</item>
+    </one-of>
+  </individual>
 
   <individual name="contact_andy">Andy</individual>
 
