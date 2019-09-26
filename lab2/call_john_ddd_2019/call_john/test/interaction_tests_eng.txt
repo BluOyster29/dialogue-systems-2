@@ -6,8 +6,3 @@ U> Mary
 S> Which phone?
 U> work
 S> It's 0784736475.
-
---- own example
-S> What would you like to do?
-U> what is John's mobile number?
-S> It's 123456

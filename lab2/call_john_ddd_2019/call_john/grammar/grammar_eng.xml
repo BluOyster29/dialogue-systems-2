@@ -28,11 +28,11 @@
     </one-of>
   </action>
 
-  <action name="contact_lookup">
+  <question speaker="user" predicate="contact_lookup">
     <one-of>
       <item>I want to know a contact's number</item>
     </one-of>
-  </action>
+  </question>
 
   <question speaker="system" predicate="select_contact" type="wh_question">Which contact</question>
 
