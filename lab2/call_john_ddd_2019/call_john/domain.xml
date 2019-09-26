@@ -15,7 +15,7 @@
     </plan>
   </goal>
 
-
+  <!--
   <goal type="resolve" predicate="contact_lookup">
     <plan>
       <findout type="wh_question" predicate="select_contact"/>
@@ -23,5 +23,6 @@
     </plan>
   </goal>
 
-  <!-- this is a query, resolving a predicate, phone number-->
+  -->
+
 </domain>
