@@ -4,12 +4,24 @@ from tdm.lib.device import DddDevice, DeviceAction, DeviceWHQuery, Validity
 class CallJohnDevice(DddDevice):
 
     class PhoneNumberAvailable(Validity):
-        def is_valid(self, selected_contact):
-            pass
+        def is_valid(self, select_contact):
+            contact = self.device.PHONE_NUMBERS.get(selected_contact)
+            if contact == None:
+                return False
+            else:
+                return True
+
 
     class MakeCall(DeviceAction):
         def perform(self, contact_name, number_type):
+            #contact = self.device.CONTACTS.get(select_contact)
+            #type = self.device.CONTACTS.get(select_number)
             return True
+
+    class phone_number(DaviceWHQuery):
+        def perform(self, select_contact, select_number):
+            number = self.device.PHONE_NUMBERS.get(select_contact)
+            return [number]
 
     JOHN = "contact_john"
     LISA = "contact_lisa"
