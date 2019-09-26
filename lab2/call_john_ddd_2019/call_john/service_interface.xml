@@ -11,6 +11,16 @@
     </target>
   </action>
 
+  <query name="contact_lookup">
+    <parameters>
+      <parameter predicate="select_contact" format="value"/>
+      <parameter predicate="select_number" format="value"/>
+    </parameters>
+    <target>
+      <device_module device="CallJohnDevice"/>
+    </target>
+  </query>
+
   <validator name="PhoneNumberAvailable">
     <parameters>
       <parameter predicate="selected_contact" format="value"/>
