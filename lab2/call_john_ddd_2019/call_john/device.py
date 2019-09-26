@@ -41,3 +41,5 @@ class CallJohnDevice(DddDevice):
         "Mary": MARY,
         "Andy": ANDY,
     }
+
+    

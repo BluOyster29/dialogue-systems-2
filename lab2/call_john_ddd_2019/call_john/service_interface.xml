@@ -10,4 +10,14 @@
       <device_module device="CallJohnDevice"/>
     </target>
   </action>
+
+  <validator name="PhoneNumberAvailable">
+    <parameters>
+      <parameter predicate="selected_contact" format="value"/>
+    </parameters>
+    <target>
+      <device_module device="HelloWorldDevice"/>
+    </target>
+  </validator>
+
 </service_interface>

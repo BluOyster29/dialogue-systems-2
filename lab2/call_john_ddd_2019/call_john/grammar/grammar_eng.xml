@@ -67,5 +67,8 @@
     </one-of>
 </individual>
 
+<validity name="PhoneNumberAvailable">
+  <slot predicate="selected_contact"/> has no phone number
+</validity>
 
 </grammar>
