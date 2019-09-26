@@ -18,7 +18,7 @@ class CallJohnDevice(DddDevice):
             #type = self.device.CONTACTS.get(select_number)
             return True
 
-    class phone_number(DaviceWHQuery):
+    class phone_number(DeviceWHQuery):
         def perform(self, select_contact, select_number):
             number = self.device.PHONE_NUMBERS.get(select_contact)
             return [number]
