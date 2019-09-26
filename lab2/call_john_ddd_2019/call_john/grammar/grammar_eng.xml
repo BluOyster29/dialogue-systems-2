@@ -47,9 +47,19 @@
     </one-of>
   </individual>
 
-  <individual name="contact_andy">Andy</individual>
+  <individual name="contact_andy">
+  <one-of>
+    <item>Andy</item>
+    <item>Andy's</item>
+  </one-of>
+</individual>
 
-  <individual name="contact_mary">Mary</individual>
+  <individual name="contact_mary">Mary
+  <one-of>
+    <item>Mary</item>
+    <item>Mary's</item>
+  </one-of>
+</individual>
 
 
 </grammar>
