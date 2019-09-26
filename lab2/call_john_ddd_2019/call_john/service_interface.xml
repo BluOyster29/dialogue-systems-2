@@ -16,7 +16,7 @@
       <parameter predicate="selected_contact" format="value"/>
     </parameters>
     <target>
-      <device_module device="HelloWorldDevice"/>
+      <device_module device="CallJohnDevice"/>
     </target>
   </validator>
 
