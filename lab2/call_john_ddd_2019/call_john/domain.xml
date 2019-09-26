@@ -19,7 +19,7 @@
     </postcond>
   </goal>
 
-  <goal type="resolve" predicate="contact_lookup">
+  <goal type="resolve" predicate="contact_lookup" type="wh_question">
     <plan>
       <dev_query type="wh_question" predicate="contact_lookup"/>
     </plan>
