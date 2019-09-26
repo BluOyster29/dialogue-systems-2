@@ -3,7 +3,7 @@
 
   <action name="make_call"/>
 
-  <predicate name="contact_lookup" sort="string"/>
+  <predicate name="contact_lookup" sort="contact_name"/>
   <predicate name="select_contact" sort="contact_name"/>
   <predicate name="select_number" sort="number_type"/>
 
