@@ -32,7 +32,7 @@
 
   <question speaker="system" predicate="select_number" type="wh_question">which phone</question>
 
-  <report action="MakeCall" status="ended">Calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/></report>
+  <report action="MakeCall" status="ended">calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/></report>
 
   <individual name="mobile">mobile</individual>
 
