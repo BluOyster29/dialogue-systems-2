@@ -15,13 +15,13 @@
     </plan>
   </goal>
 
-<!--
+
   <goal type="resolve" predicate="contact_lookup">
     <plan>
       <findout type="wh_question" predicate="select_contact"/>
       <findout type="wh_question" predicate="select_number"/>
     </plan>
   </goal>
--->
+
   <!-- this is a query, resolving a predicate, phone number-->
 </domain>
