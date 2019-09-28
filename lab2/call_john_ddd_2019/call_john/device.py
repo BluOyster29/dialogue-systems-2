@@ -12,7 +12,7 @@ class CallJohnDevice(DddDevice):
                 return True
     '''
     class MakeCall(DeviceAction):
-        def perform(self, contact_name, number_type):
+        def perform(self, select_contact, select_number):
             contact = self.device.CONTACTS.get(select_contact)
             number_type = self.device.CONTACTS.get(select_number)
             return True
