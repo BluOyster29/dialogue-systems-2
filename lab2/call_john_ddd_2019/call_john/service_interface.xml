@@ -10,7 +10,7 @@
       <device_module device="CallJohnDevice"/>
     </target>
   </action>
-
+<!--
   <query name="contact_lookup">
     <parameters>
       <parameter predicate="select_contact" format="value"/>
@@ -21,6 +21,7 @@
     </target>
   </query>
 
+
   <validator name="PhoneNumberAvailable">
     <parameters>
       <parameter predicate="selected_contact" format="value"/>
@@ -29,5 +30,5 @@
       <device_module device="CallJohnDevice"/>
     </target>
   </validator>
-
+-->
 </service_interface>
