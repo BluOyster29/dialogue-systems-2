@@ -1,10 +1,8 @@
---- context recall
+--- topic recognition
 S> What would you like to do?
-U> call john
+U> John
+S> Do you want to call or know the contact's phone number?
+U> call
 S> Which phone?
-U> what is john's work number
-S> It's 0736582934.
-U>
-S> Returning to make a call. Which phone?
-U> mobile
-S> Calling John's mobile
+U> home
+S> Calling John's home
