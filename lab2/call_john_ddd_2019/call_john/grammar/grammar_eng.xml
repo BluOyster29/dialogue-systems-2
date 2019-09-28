@@ -34,6 +34,7 @@
       <item>I want to know a contact's number</item>
       <item>what is <slot predicate="select_contact"/> <slot predicate="select_number"/></item>
       <item>what is <slot predicate="select_contact"/> number</item>
+      <item>phone number</item>
     </one-of>
   </question>
 
@@ -47,8 +48,8 @@
 
   <question speaker="all" predicate="contact_lookup" type="wh_question">
     <one-of>
-      <item>the contact's phone number</item>
-      <item>phone number</item>
+      <item>number</item>
+      <item><slot predicate="select_contact"/>phone number</item>
       <item>it's <slot predicate="phone_number"/></item>
     </one-of>
   </question>
