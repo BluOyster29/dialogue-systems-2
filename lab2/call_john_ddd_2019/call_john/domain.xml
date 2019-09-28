@@ -31,7 +31,7 @@
       <findout type="wh_question" predicate="select_contact"/>
       <findout type="wh_question" predicate="select_number"/>
       <dev_query predicate="contact_lookup" type="wh_question"/>
-      <forget predicate="selected_number"/>
+      <forget predicate="select_number"/>
     </plan>
   </goal>
 
