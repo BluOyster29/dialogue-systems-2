@@ -56,7 +56,7 @@
     Calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/>
   </report>
 
-  <answer speaker="system" predicate="contact_lookup"><slot predicate="select_contact"/>'s <slot predicate="select_number"/> is <slot predicate="contact_lookup"/></answer>
+  <answer speaker="system" predicate="contact_lookup">It's <slot predicate="contact_lookup"/></answer>
 
   <individual name="mobile">
     <one-of>
