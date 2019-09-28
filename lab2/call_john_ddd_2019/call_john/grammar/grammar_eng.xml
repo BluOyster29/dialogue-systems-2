@@ -25,6 +25,7 @@
       <item>make a call</item>
       <item>call <slot predicate="select_contact"/></item>
       <item>call <slot predicate="select_contact"/> <slot predicate="select_number"/></item>
+      <item>call</item>
     </one-of>
   </action>
 
@@ -42,6 +43,14 @@
 
   <question speaker="system" predicate="select_number" type="wh_question">
     Which phone
+  </question>
+
+  <question speaker="all" predicate="contact_lookup" type="wh_question">
+    <one-of>
+      <item>the contact's phone number</item>
+      <item>phone number</item>
+      <item>it's <slot predicate="phone_number"/></item>
+    </one-of>
   </question>
 
   <report action="MakeCall" status="ended">
