@@ -12,7 +12,8 @@ class CallJohnDevice(DddDevice):
     class contact_lookup(DeviceWHQuery):
         def perform(self, select_contact, select_number):
             print("Looking up {}".format(select_contact))
-   	        return PHONE_NUMBERS.get(select_contact).get(select_number)
+            number = PHONE_NUMBERS.get(select_contact).get(select_number)
+            return number
 
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
