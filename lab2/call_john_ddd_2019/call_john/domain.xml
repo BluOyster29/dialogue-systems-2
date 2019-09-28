@@ -24,7 +24,6 @@
       <findout type="wh_question" predicate="select_number"/>
       <dev_query predicate="ContactLookup" type="wh_question"/>
     </plan>
-
   </goal>
 
 </domain>
