@@ -21,11 +21,11 @@ class CallJohnDevice(DddDevice):
 
             if select_contact in self.device.CONTACTS.values():
                 print("{} is in contacts".format(select_contact))
-                return True
+            return True
 
             else:
-            print("{} is not in contacts".format(select_contact))
-            return False
+                print("{} is not in contacts".format(select_contact))
+                return False
 
     JOHN = "contact_john"
     LISA = "contact_lisa"
