@@ -44,11 +44,12 @@
 
   <answer speaker="system" predicate="contact_lookup">It's <slot predicate="contact_lookup"/></answer>
 
-  <individual name="mobile"><one-of>
-    <item>mobile</item>
-    <item>mobile phone</item>
-  </one-of>
-</individual>
+  <individual name="mobile">
+    <one-of>
+      <item>mobile</item>
+      <item>mobile phone</item>
+    </one-of>
+  </individual>
 
   <individual name="home">
     <one-of>
