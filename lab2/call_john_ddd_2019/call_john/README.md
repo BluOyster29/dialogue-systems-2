@@ -25,4 +25,4 @@ Ran 11 tests in 1.920s
 
 ### Difficulties faced
 
-I found it slightly difficult navigating the tdm error outputs. I thought the lab was quiten nie 
+I found it slightly difficult navigating the tdm error outputs. I thought the lab was quiten nie
