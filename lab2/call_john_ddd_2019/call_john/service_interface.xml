@@ -13,8 +13,8 @@
 
   <query name="ContactLookup">
     <parameters>
-      <parameter question_type="wh_question" predicate="select_contact" format="value"/>
-      <parameter question_type="wh_question" predicate="select_number" format ="value"/>
+      <parameter predicate="select_contact" format="value"/>
+      <parameter predicate="select_number" format ="value"/>
     </parameters>
     <target>
       <device_module device="CallJohnDevice"/>
