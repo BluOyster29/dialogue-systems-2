@@ -12,13 +12,15 @@ class CallJohnDevice(DddDevice):
     class contact_lookup(DeviceWHQuery):
     	def perform(self, select_contact, select_number):
             print("Looking up {}".format(select_contact))
-    	    contact = self.device.CONTACTS.get(select_contact)
-            number = self.device.PHONE_NUMBERS[contact][select_number]
-            return number
+    	   	
+            #number = self.device.PHONE_NUMBERS[contact][select_number]
+            #return number
 
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
-            if select_contact in self.device.CONTACTS:
+            print(self.device.CONTACTS.values())
+	    
+	    if select_contact in self.device.CONTACTS.values():
                  print("{} is in contacts".format(select_contact))
                  return True
 
