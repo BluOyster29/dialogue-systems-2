@@ -37,21 +37,15 @@
   </question>
 
   <question speaker="system" predicate="select_contact" type="wh_question">
-    <one-of>
-      <item>Which contact</item>
-    </one-of>
+    Which contact
   </question>
 
   <question speaker="system" predicate="select_number" type="wh_question">
-    <one-of>
-      <item>Which phone</item>
-    </one-of>
+    Which phone
   </question>
 
   <report action="MakeCall" status="ended">
-    <one-of>
-      <item>Calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/></item>
-    </one-of>
+    Calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/></item>
   </report>
 
   <answer speaker="system" predicate="contact_lookup">It's <slot predicate="contact_lookup"/></answer>
