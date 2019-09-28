@@ -22,10 +22,10 @@
 
   <action name="make_call">
     <one-of>
+      <item>call</item>
       <item>make a call</item>
       <item>call <slot predicate="select_contact"/></item>
-      <item>call <slot predicate="select_contact"/> <slot predicate="select_number"/></item>
-      <item>call</item>
+      <item>call <slot predicate="select_contact"/> <slot predicate="select_number"/></item>  
     </one-of>
   </action>
 
