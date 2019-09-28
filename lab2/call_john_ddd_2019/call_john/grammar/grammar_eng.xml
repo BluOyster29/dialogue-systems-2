@@ -40,6 +40,8 @@
 
   <report action="MakeCall" status="ended">Calling <slot predicate="select_contact"/>'s <slot predicate="select_number"/></report>
 
+  <answer speaker="system" predicate="contact_lookup">It's <slot predicate="contact_lookup"/></answer>
+
   <individual name="mobile">mobile</individual>
 
   <individual name="home">home</individual>
