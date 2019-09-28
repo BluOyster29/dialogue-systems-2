@@ -2,28 +2,12 @@ from tdm.lib.device import DddDevice, DeviceAction, DeviceWHQuery, Validity
 
 
 class CallJohnDevice(DddDevice):
-    '''
-    class PhoneNumberAvailable(Validity):
-        def is_valid(self, select_contact):
-            contact = self.device.CONTACTS.get(select_contact)
-            if contact == None:
-                return False
-            else:
-                return True
-    '''
+
     class MakeCall(DeviceAction):
         def perform(self, select_contact, select_number):
             contact = self.device.CONTACTS.get(select_contact)
             number_type = self.device.CONTACTS.get(select_number)
             return True
-
-    '''
-
-    class contact_lookup(DeviceWHQuery):
-        def perform(self, select_contact, select_number):
-            number = self.device.PHONE_NUMBERS.get(select_contact)
-            return [number]
-    '''
 
     JOHN = "contact_john"
     LISA = "contact_lisa"
