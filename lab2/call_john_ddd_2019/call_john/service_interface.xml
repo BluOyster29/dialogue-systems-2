@@ -11,7 +11,7 @@
     </target>
   </action>
 
-  <query name="ContactLookup">
+  <query name="contact_lookup">
     <parameters>
       <parameter predicate="select_contact" format="value"/>
       <parameter predicate="select_number" format ="value"/>
