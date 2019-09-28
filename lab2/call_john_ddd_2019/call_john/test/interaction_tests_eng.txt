@@ -2,16 +2,5 @@
 S> What would you like to do?
 U> call john
 S> Which phone?
-U> what is John's work number
+U> what is john's work number
 S> It's 0736582934.
-
---- context recall
-S> What would you like to do?
-U> call John
-S> Which phone?
-U> what is John's work number
-S> It's 0736582934.
-U>
-S> Returning to call. Which phone?
-U> mobile
-S> Calling John's mobile

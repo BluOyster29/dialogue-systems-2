@@ -15,11 +15,6 @@
     </plan>
   </goal>
 
-  
-
-
-
-
   <goal type="perform" action="make_call">
     <plan>
       <findout type="wh_question" predicate="select_contact"/>
