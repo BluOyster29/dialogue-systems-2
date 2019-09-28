@@ -4,9 +4,8 @@ The folder contains code from the Call John assignment
 
 ### Output from terminal
 
-<code>
-(tdm) [gusroberth@GU.GU.SE@eduserv call_john_ddd_2019]$ tdm build<br/>   
-Building generated grammar for DDD 'call_john'.<br/>  
+(tdm) [gusroberth@GU.GU.SE@eduserv call_john_ddd_2019]$ tdm build\ 
+Building generated grammar for DDD 'call_john'.\
 [eng] Cleaning build directory 'build/eng'...Done.<br/>  
 Not using RASA NLU, will not clean RASA build directories.<br/>
 [eng] Generating grammar.<br/>
@@ -20,11 +19,9 @@ Not using RASA NLU, will not clean RASA build directories.<br/>
 Finished building generated grammar for DDD 'call_john'.<br/>
 (tdm) [gusroberth@GU.GU.SE@eduserv call_john_ddd_2019]$ tdm test eng<br/>
 Running interactiontests from call_john/test/interaction_tests_eng.txt<br/>
-...........<br/>
+...........
 ----------------------------------------------------------------------<br/>
 Ran 11 tests in 1.920s<br/>
-
-</code>
 
 ### Difficulties faced
 
