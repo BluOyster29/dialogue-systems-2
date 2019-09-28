@@ -57,7 +57,7 @@ S> Which phone?
 U> what is john's work number
 S> It's 0736582934.
 U>
-S> Returning to make a call. Which phone?
+S> Returning to call. Which phone?
 U> mobile
 S> Calling John's mobile
 
