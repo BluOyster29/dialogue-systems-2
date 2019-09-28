@@ -29,19 +29,19 @@ S> Which contact?
 U> Mary
 S> Which phone?
 U> work
-S> It's 0784736475.
+S> Mary's work number is 0784736475.
 
 --- phone number (one-shot)
 S> What would you like to do?
 U> what is Mary's mobile
-S> It's 0706574839.
+S> Mary's mobile number is 0706574839.
 
 --- phone number (over-answering)
 S> What would you like to do?
 U> what is Mary's number
 S> Which phone?
 U> work phone
-S> It's 0784736475.
+S> Mary's work phone is 0784736475.
 
 --- topic switch
 S> What would you like to do?
