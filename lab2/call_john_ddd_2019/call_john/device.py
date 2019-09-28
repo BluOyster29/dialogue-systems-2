@@ -10,21 +10,21 @@ class CallJohnDevice(DddDevice):
             return True
 
     class contact_lookup(DeviceWHQuery):
-    	def perform(self, select_contact, select_number):
+        def perform(self, select_contact, select_number):
             print("Looking up {}".format(select_contact))
-    	   	return PHONE_NUMBERS.get(select_contact).get(select_number)
+   	        return PHONE_NUMBERS.get(select_contact).get(select_number)
 
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
             print(self.device.CONTACTS.values())
 
-	    if select_contact in self.device.CONTACTS.values():
-                 print("{} is in contacts".format(select_contact))
-                 return True
+            if select_contact in self.device.CONTACTS.values():
+                print("{} is in contacts".format(select_contact))
+                return True
 
             else:
-                print("{} is not in contacts".format(select_contact))
-                return False
+            print("{} is not in contacts".format(select_contact))
+            return False
 
     JOHN = "contact_john"
     LISA = "contact_lisa"
