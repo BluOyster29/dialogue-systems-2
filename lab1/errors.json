@@ -1,0 +1,42 @@
+[
+    {
+        "text": "hej hej",
+        "intent": "greet",
+        "intent_prediction": {
+            "name": "goodbye",
+            "confidence": 0.6645847213115094
+        }
+    },
+    {
+        "text": "how far away is McDonalds",
+        "intent": "restaurant_search",
+        "intent_prediction": {
+            "name": "tech_support",
+            "confidence": 0.2705367970995779
+        }
+    },
+    {
+        "text": "do they have delivery?",
+        "intent": "restaurant_search",
+        "intent_prediction": {
+            "name": "tech_support",
+            "confidence": 0.37695488568555446
+        }
+    },
+    {
+        "text": "do they have hot food",
+        "intent": "restaurant_search",
+        "intent_prediction": {
+            "name": "weather",
+            "confidence": 0.28528221801994474
+        }
+    },
+    {
+        "text": "cheers",
+        "intent": "goodbye",
+        "intent_prediction": {
+            "name": "greet",
+            "confidence": 0.4472458449590487
+        }
+    }
+]
