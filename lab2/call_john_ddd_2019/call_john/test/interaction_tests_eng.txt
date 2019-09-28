@@ -1,8 +1,4 @@
 --- phone number (incremental)
 S> What would you like to do?
-U> I want to know a contact's number
-S> Which contact?
-U> Mary
-S> Which phone?
-U> work
-S> It's 0784736475.
+U> Call john's mobile
+S> Calling John's mobile
