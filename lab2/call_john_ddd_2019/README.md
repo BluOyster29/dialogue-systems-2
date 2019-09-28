@@ -5,9 +5,9 @@ The folder contains code from the Call John assignment
 ### Output from terminal
 
 (tdm) [gusroberth@GU.GU.SE@eduserv call_john_ddd_2019]$ tdm build<br/>
-Building generated grammar for DDD 'call_john'.
-[eng] Cleaning build directory 'build/eng'...Done.
-Not using RASA NLU, will not clean RASA build directories.
+Building generated grammar for DDD 'call_john'.<br/>
+[eng] Cleaning build directory 'build/eng'...Done.<br/>
+Not using RASA NLU, will not clean RASA build directories.<br/>
 [eng] Generating grammar.<br/>
 [eng] Asserting that language grammar is lower case...Done.<br/>
 [eng] Finished generating grammar.<br/>
