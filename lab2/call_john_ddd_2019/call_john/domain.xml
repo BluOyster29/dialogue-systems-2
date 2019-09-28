@@ -13,32 +13,9 @@
       <findout type="wh_question" predicate="select_number"/>
       <dev_perform action="MakeCall" postconfirm="True"/>
     </plan>
-
     <postcond>
       <device_activity_terminated action="MakeCall"/>
     </postcond>
   </goal>
-
-  <goal type="resolve" question_type="wh_question" predicate="contact_lookup">
-    <plan>
-      <findout type="wh_question" predicate="select_contact"/>
-      <findout type="wh_question" predicate="select_number"/>
-      <dev_query predicate="contact_lookup" type="wh_question"/>
-      <forget predicate="select_number"/>
-    </plan>
-  </goal>
-
-
-
-
-  <!--
-  <goal type="resolve" predicate="contact_lookup">
-    <plan>
-      <findout type="wh_question" predicate="select_contact"/>
-      <findout type="wh_question" predicate="select_number"/>
-    </plan>
-  </goal>
-
-  -->
 
 </domain>
