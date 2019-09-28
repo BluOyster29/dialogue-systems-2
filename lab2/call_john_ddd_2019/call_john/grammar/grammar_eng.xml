@@ -28,12 +28,13 @@
     </one-of>
   </action>
 
+<!--
   <question speaker="user" predicate="contact_lookup" type="wh_question">
     <one-of>
       <item>I want to know a contact's number</item>
     </one-of>
   </question>
-
+-->
   <question speaker="system" predicate="select_contact" type="wh_question">Which contact</question>
 
   <question speaker="system" predicate="select_number" type="wh_question">which phone</question>
@@ -66,9 +67,9 @@
       <item>Mary's</item>
     </one-of>
 </individual>
-
+<!--
 <validity name="PhoneNumberAvailable">
   <slot predicate="selected_contact"/> has no phone number
 </validity>
-
+-->
 </grammar>
