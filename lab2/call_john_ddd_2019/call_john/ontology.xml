@@ -15,6 +15,5 @@
   <individual name="home" sort="number_type"/>
   <individual name="work" sort="number_type"/>
 
-  <!--<individual name="number" sort="number"/>-->
-
+  
 </ontology>
