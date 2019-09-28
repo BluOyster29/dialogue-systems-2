@@ -13,7 +13,7 @@ class CallJohnDevice(DddDevice):
         def perform(self, select_contact, select_number):
             contact = self.device.CONTACTS.get(select_contact)
             number = self.device.PHONE_NUMBERS[contact][select_number]
-            return True
+            return number
 
 
     JOHN = "contact_john"

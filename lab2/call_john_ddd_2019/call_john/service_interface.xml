@@ -21,8 +21,13 @@
     </target>
   </query>
 
-
-
-
+  <validator name="PhoneNumberAvailable">
+    <parameters>
+      <parameter predicate="select_contact" format="value"/>
+    </parameters>
+    <target>
+      <device_module device="CallJohnDevice"/>
+    </target>
+  </validator>
 
 </service_interface>
