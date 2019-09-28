@@ -54,6 +54,7 @@
     <one-of>
       <item>mobile</item>
       <item>mobile phone</item>
+      <item>mobile number</item>
     </one-of>
   </individual>
 
@@ -61,6 +62,7 @@
     <one-of>
       <item>home</item>
       <item>home phone</item>
+      <item>home number</item>
     </one-of>
   </individual>
 
@@ -68,13 +70,14 @@
     <one-of>
       <item>work</item>
       <item>work phone</item>
+      <item>work number</item>
     </one-of>
   </individual>
 
   <individual name="contact_john">
     <one-of>
-      <item>john</item>
-      <item>john's</item>
+      <item>John</item>
+      <item>John's</item>
     </one-of>
   </individual>
 

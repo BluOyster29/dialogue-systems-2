@@ -8,11 +8,11 @@ S> It's 0736582934.
 --- phone number (one-shot)
 S> What would you like to do?
 U> what is Mary's mobile
-S> It's 0736582934.
+S> It's 0706574839.
 
 --- topic switch
 S> What would you like to do?
 U> call john
 S> Which phone?
 U> what is Mary's mobile
-S> It's 0736582934.
+S> It's 0706574839.
