@@ -16,12 +16,12 @@ class CallJohnDevice(DddDevice):
             return number
 
     class PhoneNumberAvailable(Validity):
-        def is_valid(self, selected_contact):
-            if selected_contact in self.device.CONTACTS:
+        def is_valid(self, select_contact):
+            if select_contact in self.device.CONTACTS:
                 return True
             else:
                 return False
-                
+
     JOHN = "contact_john"
     LISA = "contact_lisa"
     MARY = "contact_mary"
