@@ -19,13 +19,12 @@ class CallJohnDevice(DddDevice):
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
             print(self.device.CONTACTS.values())
-
-            if select_contact in self.device.CONTACTS.values():
-                print("{} is in contacts".format(select_contact))
-                return True
-            else:
+            if self.device.CONTACTS.get(select_contact) == None:
                 print("{} is not in contacts".format(select_contact))
                 return False
+            else:
+                print("{} is in contacts".format(select_contact))
+                return True
 
     JOHN = "contact_john"
     LISA = "contact_lisa"

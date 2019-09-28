@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service_interface>
-  
+
   <action name="MakeCall">
     <parameters>
       <parameter predicate="select_contact" format="value"/>
