@@ -9,6 +9,13 @@ class CallJohnDevice(DddDevice):
             number_type = self.device.CONTACTS.get(select_number)
             return True
 
+    class ContactLookup(DeviceWHQuery):
+        def perform(self, select_contact, select_number):
+            contact = self.device.CONTACTS.get(select_contact)
+            number = self.device.PHONE_NUMBERS[contact]][select_number]
+            return True
+
+
     JOHN = "contact_john"
     LISA = "contact_lisa"
     MARY = "contact_mary"

@@ -18,4 +18,13 @@
     </postcond>
   </goal>
 
+  <goal type="resolve" action="contact_lookup">
+    <plan>
+      <findout type="wh_question" predicate="select_contact"/>
+      <findout type="wh_question" predicate="select_number"/>
+      <dev_query predicate="ContactLookup" type="wh_question"/>
+    </plan>
+
+  </goal>
+
 </domain>
