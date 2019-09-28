@@ -9,7 +9,7 @@ class CallJohnDevice(DddDevice):
             number_type = self.device.CONTACTS.get(select_number)
             return True
 
-    class ContactLookup(DeviceWHQuery):
+    class contact_lookup(DeviceWHQuery):
 	def perform(self, select_contact, select_number):
             print("popopop")
 	    contact = self.device.CONTACTS.get(select_contact)
@@ -18,7 +18,7 @@ class CallJohnDevice(DddDevice):
 
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
-            
+
             if select_contact in self.device.CONTACTS:
 		return True
             else:
