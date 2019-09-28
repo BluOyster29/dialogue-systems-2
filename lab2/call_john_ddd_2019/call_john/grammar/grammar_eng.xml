@@ -48,7 +48,9 @@
 
   <question speaker="all" predicate="contact_lookup" type="wh_question">
     <one-of>
-      <item><slot predicate="select_contact"/>'s number'</item>
+      <item>number</item>
+      <item>phone number</item>
+      <item>it's <slot predicate="phone_number"/></item>
     </one-of>
   </question>
 
