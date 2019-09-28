@@ -29,5 +29,4 @@
       <device_module device="CallJohnDevice"/>
     </target>
   </validator>
-
 </service_interface>
