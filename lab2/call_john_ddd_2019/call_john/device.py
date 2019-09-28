@@ -10,15 +10,17 @@ class CallJohnDevice(DddDevice):
             return True
 
     class ContactLookup(DeviceWHQuery):
-        def perform(self, select_contact, select_number):
-            contact = self.device.CONTACTS.get(select_contact)
+	def perform(self, select_contact, select_number):
+            print("popopop")
+	    contact = self.device.CONTACTS.get(select_contact)
             number = self.device.PHONE_NUMBERS[contact][select_number]
             return number
 
     class PhoneNumberAvailable(Validity):
         def is_valid(self, select_contact):
+            
             if select_contact in self.device.CONTACTS:
-                return True
+		return True
             else:
                 return False
 

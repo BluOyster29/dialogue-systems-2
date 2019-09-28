@@ -15,8 +15,8 @@ fun
 
 top : VpAction;
 make_call : VpAction;
-make_call_request_1 : Sort_contact_name -> UsrRequest;
-make_call_request_2 : Sort_contact_name -> Sort_number_type -> UsrRequest;
+make_call_request_1 : Predicate_select_contact -> UsrRequest;
+make_call_request_2 : Predicate_select_contact -> Predicate_select_number -> UsrRequest;
 up : VpAction;
 mobile : Sort_number_type;
 home : Sort_number_type;
@@ -24,6 +24,7 @@ contact_mary : Sort_contact_name;
 work : Sort_number_type;
 contact_john : Sort_contact_name;
 contact_lookup : Predicate;
+ask_contact_lookup : UsrWHQ;
 contact_lookup_sys_answer_0 : SysAnswer;
 contact_lookup_sys_answer_1 : SysAnswer;
 contact_lookup_sys_answer_2 : SysAnswer;
@@ -52,4 +53,5 @@ mkUnknown : String -> Unknown;
 unknown_string : Unknown -> Sort_string;
 report_ended_MakeCall_3 : SysAnswer -> SysAnswer -> SysReportEnded;
 report_failed_MakeCall_undefined_failure_4 : SysAnswer -> SysAnswer -> SysReportFailed;
+PhoneNumberAvailable_5 : SysAnswer -> SysICM;
 }

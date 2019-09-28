@@ -15,8 +15,8 @@ lin
 
 top = pp "top";
 make_call = pp "make_call";
-make_call_request_1 contact_name = request (pp "make_call") contact_name;
-make_call_request_2 contact_name number_type = request (pp "make_call") contact_name number_type;
+make_call_request_1 select_contact = request (pp "make_call") select_contact;
+make_call_request_2 select_contact select_number = request (pp "make_call") select_contact select_number;
 up = pp "up";
 mobile = pp "mobile";
 home = pp "home";
@@ -24,6 +24,7 @@ contact_mary = pp "contact_mary";
 work = pp "work";
 contact_john = pp "contact_john";
 contact_lookup = pp "contact_lookup";
+ask_contact_lookup = ask_whq contact_lookup;
 contact_lookup_sys_answer_0 = pp "contact_lookup" string_constant_0;
 contact_lookup_sys_answer_1 = pp "contact_lookup" string_constant_1;
 contact_lookup_sys_answer_2 = pp "contact_lookup" string_constant_2;
@@ -52,4 +53,5 @@ unknown_string unknown = ss ("\"" ++ unknown.s ++ "\"");
 mkUnknown string = ss string.s;
 report_ended_MakeCall_3 select_contact select_number = report_ended "MakeCall" (list select_contact select_number);
 report_failed_MakeCall_undefined_failure_4 select_contact select_number = report_failed "MakeCall" (list select_contact select_number) "undefined_failure";
+PhoneNumberAvailable_5 select_contact = rejectICM (set (list select_contact)) "PhoneNumberAvailable";
 }
