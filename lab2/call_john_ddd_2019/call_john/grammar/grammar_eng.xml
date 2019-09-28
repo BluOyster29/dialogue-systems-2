@@ -67,8 +67,8 @@
 
   <individual name="contact_john">
     <one-of>
-      <item>John</item>
-      <item>John's</item>
+      <item>john</item>
+      <item>john's</item>
     </one-of>
   </individual>
 
