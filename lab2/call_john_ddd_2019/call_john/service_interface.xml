@@ -16,13 +16,12 @@
       <parameter predicate="select_contact" format="value"/>
       <parameter predicate="select_number" format ="value"/>
     </parameters>
-    <failure_reasons/>
     <target>
       <device_module device="CallJohnDevice"/>
     </target>
   </query>
 
-  
+
 
 
 
