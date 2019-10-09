@@ -12,7 +12,7 @@
       <findout type="wh_question" predicate="select_country"/>
       <findout type="wh_question" predicate="select_city"/>
       <findout type="wh_question" predicate="select_units"/>
-      <dev_query predicate="get_temperature" type="wh_question"/>
+      <dev_query predicate="get_temperature"/>
     </plan>
   </goal>
 </domain>
