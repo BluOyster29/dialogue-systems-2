@@ -1,0 +1,72 @@
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry='Andy', name=u'contact_andy')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_andy'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry="Andy's", name=u'contact_andy')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_andy'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='mobile', name=u'mobile')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'mobile'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='mobile phone', name=u'mobile')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'mobile'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='mobile number', name=u'mobile')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'mobile'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry='Mary', name=u'contact_mary')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_mary'
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry="Mary's", name=u'contact_mary')
+2019-09-28 16:00:16,355 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_mary'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='work', name=u'work')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'work'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='work phone', name=u'work')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'work'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='work number', name=u'work')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'work'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry='John', name=u'contact_john')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'contact_name', grammar_entry="John's", name=u'contact_john')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='home', name=u'home')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'home'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='home phone', name=u'home')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'home'
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity(sort=u'number_type', grammar_entry='home number', name=u'home')
+2019-09-28 16:00:16,356 - tdm - DEBUG - EntityDb(call_john): add_entity returns u'home'
+2019-09-28 16:00:16,357 - tdm - DEBUG - DddDb().__init__(name='ddds', default_ddds=[u'call_john'])
+2019-09-28 16:00:16,357 - tdm - DEBUG - DddDb(): DB file name is '/home/gusroberth@GU.GU.SE/repos/semester-3/dialogue-systems-2/lab2/call_john_ddd_2019/ddds.json'
+2019-09-28 16:00:16,371 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session=None).open()
+2019-09-28 16:00:16,373 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session=None).on_message({"handshake_content": {"session_id": null, "keep_session_alive": false}, "name": "Frontend"})
+2019-09-28 16:00:16,373 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session=None)._register({"handshake_content": {"session_id": null, "keep_session_alive": false}, "name": "Frontend"})
+2019-09-28 16:00:16,374 - tdm - DEBUG - thread_manager.create_thread() with threading.active_count()=3
+2019-09-28 16:00:16,374 - tdm - DEBUG - thread_manager.create_thread() with threading.active_count()=4
+2019-09-28 16:00:16,377 - tdm - DEBUG - Creating backend and session with id 2019-09-28T16_00_16_0.
+2019-09-28 16:00:16,379 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": "2019-09-28T16_00_16_0", "_sender": null, "_reason": null, "event_type": "SESSION_ID"}
+2019-09-28 16:00:16,379 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,379 - tdm - DEBUG - FrontendConnectionHandler._register: Registered in session 2019-09-28T16_00_16_0 with backend <tdm.backend.Backend object at 0x7f7efaea6650>.
+2019-09-28 16:00:16,379 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_message({"content": null, "_sender": "Frontend", "_reason": null, "event_type": "START"})
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(SET_DDD, {'ddd_name': 'call_john', 'language_code': 'eng'}, sender=DmeModule, reason=None))
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": {"ddd_name": "call_john", "language_code": "eng"}, "_sender": "DmeModule", "_reason": null, "event_type": "SET_DDD"}
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-09-28 16:00:16,407 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': 5.0, 'system_has_asked_question': True}, sender=DmeModule, reason=None))
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": {"passivity_duration": 5.0, "system_has_asked_question": true}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,408 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(EXPECTED_PASSIVITY_DURATION, 5.0, sender=DmeModule, reason=None))
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": 5.0, "_sender": "DmeModule", "_reason": null, "event_type": "EXPECTED_PASSIVITY_DURATION"}
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['', 'What would you like to do?'], sender=None, reason=None))
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": ["", "What would you like to do?"], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(MESSAGE_TO_GUI, [], sender=None, reason=None))
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": [], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-09-28 16:00:16,409 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:17,929 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_message({"content": [{"score": 1.0, "utterance": "john"}], "_sender": "TextInputComponent", "_reason": null, "event_type": "RECOGNITION"})
+2019-09-28 16:00:17,974 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_event(Event(BACKEND_ERROR, None, sender=None, reason=None))
+2019-09-28 16:00:17,974 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): writing {"content": null, "_sender": null, "_reason": null, "event_type": "BACKEND_ERROR"}
+2019-09-28 16:00:17,974 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0'): OK
+2019-09-28 16:00:21,538 - tdm - DEBUG - FrontendConnectionHandler(id=140183352099664, session='2019-09-28T16_00_16_0').on_close()
+2019-09-28 16:00:21,538 - tdm - DEBUG - SessionManager.stop('2019-09-28T16_00_16_0')
+2019-09-28 16:00:21,539 - tdm - DEBUG - TdmApplication.stop(): Stopping HTTP server
+2019-09-28 16:00:21,539 - tdm - DEBUG - TdmApplication.stop(): Stopping IO-loop
+2019-09-28 16:00:21,539 - tdm - DEBUG - TdmApplication.stop(): Stopping sessions []

@@ -1,0 +1,8 @@
+--- main menu
+S> What would you like to do?
+U> what is the temperature 
+S> What city?
+U> Cardiff
+S> What country? 
+U> Wales 
+S> The temperature is *
