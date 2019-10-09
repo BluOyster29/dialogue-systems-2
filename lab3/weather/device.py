@@ -8,7 +8,7 @@ class WeatherDevice(DddDevice):
             select_city = "Cardiff"
             select_country= "Wales"
             select_units = "imperial"
-            temperature = 23 
+            temperature = "23" 
 	    return temperature
 
 
