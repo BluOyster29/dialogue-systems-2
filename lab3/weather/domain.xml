@@ -6,4 +6,13 @@
       <findout type="goal"/>
     </plan>
   </goal>
+
+  <goal type="resolve" question_type="wh_question" predicate="get_temperature">
+    <plan>
+      <findout type="wh_question" predicate="select_country"/>
+      <findout type="wh_question" predicate="select_city"/>
+      <findout type="wh_question" predicate="select_units"/>
+      <dev_query action="get_temperature" type="wh_question"/>
+    </plan>
+    <postcond>
 </domain>
