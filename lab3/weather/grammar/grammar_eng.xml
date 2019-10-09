@@ -21,7 +21,7 @@
      </one-of>
    </action>
 
-  <question speaker="all" predicate="get_temperature" type="wh_question">
+  <question speaker="user" predicate="get_temperature" type="wh_question">
     <one-of>
       <item>I want to know the temperature of a place</item>
       <item>what is the temperature of <slot predicate="select_city"/></item>
