@@ -13,6 +13,14 @@
      </one-of>
    </action>
 
+   <action name="up">
+     <one-of>
+       <item>up</item>
+       <item>back</item>
+       <item>go back</item>
+     </one-of>
+   </action>
+
   <question speaker="all" predicate="get_temperature" type="wh_question">
     <one-of>
       <item>I want to know the temperature of a place</item>
