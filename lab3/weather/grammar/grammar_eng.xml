@@ -46,7 +46,7 @@
     </one-of>
   </individual>
 
-  <individual name="country_englan">
+  <individual name="country_england">
     <one-of>
       <item>England</item>
     </one-of>

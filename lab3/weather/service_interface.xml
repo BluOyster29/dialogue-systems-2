@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service_interface>
-    <entity_recognizer name="WeatherRecognizer">
-        <target>
-            <device_module device="WeatherDevice"/>
-        </target>
-    </entity_recognizer>
-
     <query name="get_temperature">
       <parameters>
         <parameter predicate="select_city" format="value"/>

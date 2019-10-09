@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="WeatherOntology">
 
-  <predicate name="get_temperature"/>
+  <predicate name="get_temperature" sort="string"/>
   <predicate name="select_country" sort="country_name"/>
   <predicate name="select_city" sort="city_name"/>
   <predicate name="select_units" sort="temperature_units"/>
@@ -14,7 +14,7 @@
   <individual name="city_london" sort="city_name"/>
   <individual name="country_england" sort="country_name"/>
   <individual name="country_wales" sort="country_name"/>
-  <individual name="units_metric" sort="temperatre_units"/>
-  <individual name="units_imperial" sort="temperatre_units"/>
+  <individual name="units_metric" sort="temperature_units"/>
+  <individual name="units_imperial" sort="temperature_units"/>
 
 </ontology>

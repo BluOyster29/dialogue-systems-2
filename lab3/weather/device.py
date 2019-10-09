@@ -1,15 +1,15 @@
-from tdm.lib.device import DddDevice, EntityRecognizer
+from tdm.lib.device import DddDevice, DeviceAction, DeviceWHQuery, Validity
 
 
 class WeatherDevice(DddDevice):
 
-    class get_weather(DeviceWHQuery):
+    class get_temperature(DeviceWHQuery):
         def perform(self, select_city, select_units, select_country):
-            select_city = .#inser api request
-            select_country= .#insert api request
-            select_units = .#insert api request
-            temperature = .#this will be the temperature
-        return temperature
+            select_city = "Cardiff"
+            select_country= "Wales"
+            select_units = "imperial"
+            temperature = 23 
+	    return temperature
 
 
     CARDIFF  = "city_cardiff"
@@ -30,6 +30,6 @@ class WeatherDevice(DddDevice):
     }
 
     UNITS = {
-        "imperial" : imperial,
+        "imperial" : IMPERIAL,
         "metric"   : METRIC
     }
