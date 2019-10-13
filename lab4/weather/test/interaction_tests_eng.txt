@@ -1,5 +1,7 @@
 --- main menu
 S> What would you like to do?
+
+--- Temperature of place
 U> I want to know the temperature of a place
 S> Which country?
 U> Wales
