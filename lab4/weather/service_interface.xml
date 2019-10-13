@@ -4,7 +4,7 @@
       <parameters>
         <parameter predicate="select_city" format="grammar_entry"/>
         <parameter predicate="select_country" format ="grammar_entry"/>
-        <parameter predicate="select_units" format ="grammar_entry"/>
+        <parameter predicate="select_units" format ="grammar_entry" default="metric"/>
       </parameters>
       <target>
         <device_module device="WeatherDevice"/>
