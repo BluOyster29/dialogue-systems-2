@@ -30,6 +30,7 @@ select_units_propositional_usr_answer : Sort_temperature_units -> Predicate_sele
 temperature_units_user_answer : Sort_temperature_units -> UsrAnswer;
 temperature_units_individual : Sort_temperature_units -> Individual;
 get_temperature : Predicate;
+get_temperature_resolve_ynq_1 : SysResolveGoal;
 ask_get_temperature : UsrWHQ;
-get_temperature_user_question_1 : Predicate_select_city -> UsrWHQ;
-get_temperature_user_question_2 : Predicate_select_city -> Predicate_select_country -> UsrWHQ;
+get_temperature_user_question_2 : Predicate_select_city -> UsrWHQ;
+get_temperature_user_question_3 : Predicate_select_city -> Predicate_select_country -> UsrWHQ;

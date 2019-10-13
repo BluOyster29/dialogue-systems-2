@@ -29,6 +29,8 @@
     </one-of>
   </question>
 
+  <question speaker="all" predicate="get_temperature" type="wh_question">the temperature</question>
+
   <question speaker="system" predicate="select_city" type="wh_question">
     Which city
   </question>
