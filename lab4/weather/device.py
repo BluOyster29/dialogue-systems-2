@@ -3,12 +3,12 @@ from tdm.lib.device import DddDevice, DeviceAction, DeviceWHQuery, Validity
 
 class WeatherDevice(DddDevice):
 
-    class get_temperature(DeviceWHQuery):
+    class temperature(DeviceWHQuery):
         def perform(self, select_city, select_units, select_country):
             select_city = "Cardiff"
             select_country= "Wales"
             select_units = "imperial"
-            temperature = "23" 
+            temperature = "23"
 	    return temperature
 
 

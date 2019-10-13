@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="WeatherOntology">
 
-  <predicate name="get_temperature" sort="string"/>
+  <predicate name="temperature" sort="string"/>
   <predicate name="select_country" sort="country_name"/>
   <predicate name="select_city" sort="city_name"/>
   <predicate name="select_units" sort="temperature_units"/>

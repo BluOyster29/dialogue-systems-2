@@ -21,7 +21,7 @@
      </one-of>
    </action>
 
-  <question speaker="user" predicate="get_temperature" type="wh_question">
+  <question speaker="user" predicate="temperature" type="wh_question">
     <one-of>
       <item>I want to know the temperature of a place</item>
       <item>what is the temperature of <slot predicate="select_city"/></item>
@@ -29,7 +29,7 @@
     </one-of>
   </question>
 
-  <question speaker="all" predicate="get_temperature" type="wh_question">the temperature</question>
+  <question speaker="all" predicate="temperature" type="wh_question">the temperature</question>
 
   <question speaker="system" predicate="select_city" type="wh_question">
     Which city
@@ -43,7 +43,7 @@
     Would you like the temperature in imperial or metric
   </question>
 
-  <answer speaker="system" predicate="get_temperature">The temperature of <slot predicate="select_city"/> in <slot predicate="select_country"/> in <slot predicate="select_units"/> is <slot predicate="get_temperature"/></answer>
+  <answer speaker="system" predicate="temperature">The temperature of <slot predicate="select_city"/> in <slot predicate="select_country"/> in <slot predicate="select_units"/> is <slot predicate="temperature"/></answer>
 
   <individual name="city_cardiff">
     <one-of>
