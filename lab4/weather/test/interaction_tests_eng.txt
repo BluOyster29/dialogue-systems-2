@@ -1,0 +1,10 @@
+--- main menu
+S> What would you like to do?
+U> I want to know the temperature of a place
+S> Which country?
+U> Wales
+S> Which city?
+U> Cardiff
+S> Would you like the temperature in imperial or metric?
+U> metric
+S> The temperature of Cardiff in Wales in metric is *

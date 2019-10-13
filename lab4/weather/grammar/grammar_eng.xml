@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+  <action name="top">
+     <one-of>
+       <item>main menu</item>
+       <item>top</item>
+       <item>beginning</item>
+       <item>cancel</item>
+       <item>forget it</item>
+       <item>never mind</item>
+       <item>abort</item>
+     </one-of>
+   </action>
+
+   <action name="up">
+     <one-of>
+       <item>up</item>
+       <item>back</item>
+       <item>go back</item>
+     </one-of>
+   </action>
+
+  <question speaker="user" predicate="get_temperature" type="wh_question">
+    <one-of>
+      <item>I want to know the temperature of a place</item>
+      <item>what is the temperature of <slot predicate="select_city"/></item>
+      <item>what is the temperature of <slot predicate="select_city"/> in <slot predicate="select_country"/> number</item>
+    </one-of>
+  </question>
+
+  <question speaker="system" predicate="select_city" type="wh_question">
+    Which city
+  </question>
+
+  <question speaker="system" predicate="select_country" type="wh_question">
+    Which country
+  </question>
+
+  <question speaker="system" predicate="select_units" type="wh_question">
+    Would you like the temperature in imperial or metric
+  </question>
+
+  <answer speaker="system" predicate="get_temperature">The temperature of <slot predicate="select_city"/> in <slot predicate="select_country"/> in <slot predicate="select_units"/> is <slot predicate="get_temperature"/></answer>
+
+  <individual name="city_cardiff">
+    <one-of>
+      <item>Cardiff</item>
+    </one-of>
+  </individual>
+
+  <individual name="city_london">
+    <one-of>
+      <item>London</item>
+    </one-of>
+  </individual>
+
+  <individual name="country_england">
+    <one-of>
+      <item>England</item>
+    </one-of>
+  </individual>
+
+  <individual name="country_wales">
+    <one-of>
+      <item>Wales</item>
+    </one-of>
+  </individual>
+
+  <individual name="units_metric">
+    <one-of>
+      <item>metric</item>
+      <item>celcius</item>
+    </one-of>
+  </individual>
+
+  <individual name="units_imperial">
+    <one-of>
+      <item>imperial</item>
+    </one-of>
+  </individual>
+
+</grammar>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="WeatherDomain" is_super_domain="true">
+  <goal type="perform" action="top">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+
+  <goal type="resolve" question_type="wh_question" predicate="get_temperature">
+    <plan>
+      <findout type="wh_question" predicate="select_country"/>
+      <findout type="wh_question" predicate="select_city"/>
+      <findout type="wh_question" predicate="select_units"/>
+      <dev_query predicate="get_temperature" type="wh_question"/>
+    </plan>
+  </goal>
+</domain>

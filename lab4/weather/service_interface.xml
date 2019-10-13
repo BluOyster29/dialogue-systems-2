@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service_interface>
+    <query name="get_temperature">
+      <parameters>
+        <parameter predicate="select_city" format="value"/>
+        <parameter predicate="select_country" format ="value"/>
+        <parameter predicate="select_units" format ="value"/>
+      </parameters>
+      <target>
+        <device_module device="WeatherDevice"/>
+      </target>
+    </query>
+
+
+
+</service_interface>
