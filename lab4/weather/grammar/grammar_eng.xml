@@ -43,7 +43,7 @@
     Would you like the temperature in imperial or metric
   </question>
 
-  <answer speaker="system" predicate="temperature">The temperature of <slot predicate="select_city"/> in <slot predicate="select_country"/> in <slot predicate="select_units"/> is <slot predicate="temperature"/></answer>
+  <answer speaker="system" predicate="temperature">The temperature is <slot predicate="temperature"/></answer>
 
   <individual name="city_cardiff">
     <one-of>
