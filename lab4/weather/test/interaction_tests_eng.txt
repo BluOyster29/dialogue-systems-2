@@ -1,12 +1,17 @@
 --- main menu
 S> What would you like to do?
 
---- Temperature of place
-U> I want to know the temperature of a place
+--- Weather of a place (incremental)
+U> I want to know the temperature of a place please
 S> Which country?
 U> Wales
 S> Which city?
 U> Cardiff
 S> Would you like the temperature in imperial or metric?
 U> metric
-S> The temperature of Cardiff in Wales in metric is *
+S> The weather is *
+U> Thanks! 
+
+--- Weather of a place (one-shot)
+U> I want to know the weather of Cardiff in Wales please
+S> The weather is *
