@@ -15,7 +15,7 @@ class WeatherDevice(DddDevice):
         '''
 
     class temperature(DeviceWHQuery):
-        def getData(self,select_city, select_units, select_country):
+        def perform(self,select_city, select_units, select_country):
             print(select_city, select_units, select_country)
             url = 'http://api.openweathermap.org/data/2.5/weather?q=%s,%s&APPID=765e517f55ddd638e72b43b675f71621' % (select_city,select_country)
             print url
